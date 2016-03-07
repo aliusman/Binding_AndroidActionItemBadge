@@ -59,8 +59,12 @@
     <None Include="tools\uninstall.ps1" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="content\" />
     <Folder Include="src\" />
+  </ItemGroup>
+  <ItemGroup>
+    <TransformFile Include="content\layout\menu_badge.xml" />
+    <TransformFile Include="content\layout\menu_badge_large.xml" />
+    <TransformFile Include="content\drawable\badge.xml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="lib\Android-ActionItemBadge-Binding.dll" />
