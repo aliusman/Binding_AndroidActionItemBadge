@@ -1,27 +1,28 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>ActionButtonBadge</id>
-    <version>1.1.0</version>
-    <title>ActionButtonBadge</title>
+    <id>Android-ActionItemBadge</id>
+    <version>1.1.4</version>
+    <title>Android-ActionItemBadge</title>
     <authors>Arnstein Johansen</authors>
     <owners></owners>
     <description>
       Xamarin binding library for Android-ActionItemBadge (https://github.com/mikepenz/Android-ActionItemBadge).
     </description>
     <releaseNotes>
-      Added bindings.
+      Adds missing resource files.
     </releaseNotes>
     <summary>
       Xamarin binding library for Android-ActionItemBadge (https://github.com/mikepenz/Android-ActionItemBadge).
     </summary>
     <language>en-US</language>
     <projectUrl>https://nuget.org/packages/ActionButtonBadge</projectUrl>
-    <iconUrl>https://nuget.org/Content/Images/packageDefaultIcon-50x50.png</iconUrl>
+    <iconUrl>http://i.imgur.com/kE6n9XP.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>
     <copyright>Copyright  2016</copyright>
     <dependencies>
+      <dependency id="AndroidIconics" version="1.0.0" />
     </dependencies>
     <references></references>
     <tags>Xamarin ActionItemBadge Android</tags>

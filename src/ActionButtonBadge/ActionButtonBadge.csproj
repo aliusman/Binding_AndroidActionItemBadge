@@ -53,7 +53,9 @@
     <None Include="NuGetSetup.ps1" />
     <None Include="NuGet.exe" />
     <None Include="NuGet.config" />
-    <None Include="Package.nuspec" />
+    <None Include="Package.nuspec">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="tools\init.ps1" />
     <None Include="tools\install.ps1" />
     <None Include="tools\uninstall.ps1" />
@@ -62,11 +64,9 @@
     <Folder Include="src\" />
   </ItemGroup>
   <ItemGroup>
-    <TransformFile Include="content\layout\menu_badge.xml" />
-    <TransformFile Include="content\layout\menu_badge_large.xml" />
-    <TransformFile Include="content\drawable\badge.xml" />
-  </ItemGroup>
-  <ItemGroup>
+    <TransformFile Include="content\Resources\drawable\badge.xml" />
+    <TransformFile Include="content\Resources\layout\menu_badge.xml" />
+    <TransformFile Include="content\Resources\layout\menu_badge_large.xml" />
     <Content Include="lib\Android-ActionItemBadge-Binding.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
